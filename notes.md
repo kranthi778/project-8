@@ -93,4 +93,124 @@ How it affects computer systems.
 I learned about malware. 
 How it is used in cyber attacks.
 
------
+--------
+
+# Part 2 – Static Malware Analysis Using VirusTotal
+
+## Objective
+
+I want to learn how to do static malware analysis using VirusTotal. This means I will look at a file and understand what the analysis report is telling me.
+
+---
+
+# What is Static Malware Analysis?
+
+Static malware analysis is when I look at a file without running it.
+
+This is a way for security professionals to get information about a suspicious file.
+
+VirusTotal is a popular platform for doing this kind of analysis.
+
+---
+
+## 1. Access VirusTotal
+
+### What We Are Doing
+
+Now I will open the VirusTotal platform to look at a file.
+
+### Description
+
+VirusTotal uses antivirus engines to scan the files I upload.
+
+Then it gives me a lot of information about the file like what was found the file properties and what other people think about the file.
+
+---
+
+## 2. Upload the File
+
+### What We Are Doing
+
+Next I will upload the laboratory sample file to VirusTotal for analysis.
+
+### Description
+
+I select the File tab and upload the sample file.
+
+VirusTotal then looks at the file. Makes a report.
+
+---
+
+## 3. Review the Analysis Report
+
+### What We Are Doing
+
+Now I will look at the results from VirusTotal.
+
+### Observe
+
+- How many antivirus programs found something
+
+- What each antivirus program found
+
+- The name of the file
+
+- How the file is
+
+- The MD5 Hash
+
+- The SHA-1 Hash
+
+- The SHA-256 Hash
+
+- What kind of file it is
+
+### Description
+
+The report from VirusTotal tells me a lot about the file.
+
+This helps me decide if the file is bad or not.
+
+Different antivirus programs might say things about the same file.
+
+---
+
+## Screenshot
+
+![Alt text](screenshots/virustotal-report.png)
+
+---
+
+# Key Concepts Learned
+
+- Static Malware Analysis using VirusTotal
+
+- VirusTotal and what it does
+
+- Detection Ratio and how it works
+
+- Antivirus Engines and how they help
+
+- File Hashes and why they are important
+
+- How to identify malware using VirusTotal
+
+---https://www.virustotal.com
+
+# conclusion
+
+In this part I learned how to do malware analysis.
+
+I learned how VirusTotal looks at files.
+
+I learned what the detection ratio means.
+
+I learned why file hashes are important when looking for malware.
+
+I learned how security analysts use VirusTotal to investigate problems.
+
+I am using VirusTotal to learn about Static Malware Analysis.
+
+Static Malware Analysis is a skill.
+
+VirusTotal is a tool, for Static Malware Analysis.
