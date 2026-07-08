@@ -327,3 +327,123 @@ In this part I learned:
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+# Part 4 – Understanding Static and Dynamic Malware Analysis
+
+## Objective
+
+I want to understand the difference between static malware analysis and dynamic malware analysis. I want to learn how each technique helps security professionals investigate files during malware analysis.
+
+---
+
+# Why is Malware Analysis Important?
+
+Malware analysis is important because it helps security professionals understand how a suspicious file behaves. It helps them identify threats and determine what security measures they need to take.
+
+There are two approaches used during malware analysis:
+
+- Static Analysis
+
+- Dynamic Analysis
+
+Both approaches provide valuable information and are often used together during malware investigations.
+
+---
+
+## 1. Static Malware Analysis
+
+### What We Are Learning
+
+Static malware analysis is the process of examining a file without running it.
+
+### Information Collected
+
+- File Name
+
+- File Type
+
+- File Size
+
+- File Hashes like MD5, SHA-1, SHA-256
+
+- Metadata
+
+- Digital Signatures
+
+- Antivirus Detection Results
+
+### Description
+
+Static analysis is usually the step of a malware investigation. This is because it allows analysts to safely collect information without running the file.
+
+VirusTotal is one of the used platforms for performing basic static malware analysis.
+
+---
+
+## 2. Dynamic Malware Analysis
+
+### What We Are Learning
+
+malware analysis is the process of observing the behaviour of a suspicious file while it is running inside a controlled and isolated environment.
+
+### Common Observations
+
+- What processes are running
+
+- What is happening in the file system
+
+- What changes are made to the registry
+
+- What network connections are made
+
+- How the system behaves
+
+### Description
+
+Dynamic analysis helps security professionals understand what actions malware takes after it is run.
+
+Because malware is run during this process dynamic analysis should only be done inside isolated laboratory or sandbox environments.
+
+---
+
+## 3. Static Analysis vs Dynamic Analysis
+
+| Static Analysis Dynamic Analysis |
+
+|-----------------|------------------|
+
+| The file is not run | The file is run in an environment |
+
+| It is a safe initial analysis | The behaviour is observed during execution |
+
+| It collects hashes and metadata | It observes what happens when the file is running |
+
+| It is an analysis | It provides insights into what the malware does |
+
+---
+
+# Key Concepts Learned
+
+- Static Malware Analysis
+
+- Dynamic Malware Analysis
+
+- Malware Behaviour
+
+- File Hashes
+
+- Metadata
+
+- Behavioural Analysis
+
+---
+
+# conclusion
+
+In this part I learned about the difference between static and dynamic malware analysis. 
+I learned when static analysis is preferred and when dynamic analysis is required. 
+I also learned why both techniques are important, during malware investigations. 
+I learned about malware analysis and dynamic malware analysis.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
