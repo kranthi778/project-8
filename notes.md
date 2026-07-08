@@ -217,3 +217,113 @@ I am using VirusTotal to learn about Static Malware Analysis.
 Static Malware Analysis is a skill.
 
 VirusTotal is a tool, for Static Malware Analysis.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+# Part 3 – Interpreting the VirusTotal Analysis Report
+
+## Objective
+
+I want to learn how to make sense of the information in a VirusTotal analysis report. This will help me understand how security analysts use this info to investigate files.
+
+---
+
+# Why Analyze the Report?
+
+Just uploading a file to VirusTotal is not enough. The real value comes from understanding the report and using it to decide if a file might be malicious.
+
+## 1. Review the Detection Ratio
+
+### What We Are Doing
+
+We need to see how many antivirus engines think the uploaded file is malicious.
+
+### Description
+
+The detection ratio gives us an idea of how many people think the file is suspicious. If lots of antivirus engines detect it we should probably look closer.. We always need to consider more evidence before making a decision.
+
+## 2. Examine File Properties
+
+### What We Are Doing
+
+Lets look at the details about the file that was uploaded.
+
+### Observe
+
+* File Name
+
+* File Type
+
+* File Size
+
+* Analysis Date
+
+### Description
+
+File properties help us understand what the file is like. We can compare it to files we've seen before to help with our investigation.
+
+## 3. Review Hash Values
+
+### What We Are Doing
+
+We need to find the codes that are assigned to the file.
+
+### Observe
+
+* MD5
+
+* SHA-1
+
+* SHA-256
+
+### Description
+
+These codes are like fingerprints, for the file. We use them to identify the file and see if its been reported before.
+
+## 4. Review Security Vendor Results
+
+### What We Are Doing
+
+Lets compare what different antivirus companies think about the file.
+
+### Description
+
+Each company has its way of detecting malware. That's why the same file might get names from different companies.
+
+## Screenshot
+
+![Alt text](screenshots/analysis-details.png)
+
+---
+
+# Key Concepts Learned
+
+* Detection Ratio
+
+* File Metadata
+
+* Cryptographic Hashes
+
+* Antivirus Vendor Analysis
+
+* Malware Identification
+
+---
+
+# conclusion
+
+In this part I learned:
+
+* How to understand a VirusTotal report.
+
+* I should be careful when looking at detection ratios.
+
+* File hashes are important when investigating.
+
+* Different antivirus companies might classify files differently.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
