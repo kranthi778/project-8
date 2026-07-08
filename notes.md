@@ -545,3 +545,114 @@ In this part I learned:
 * How TCPView helps in malware investigations.
 
 * Why monitoring network connections is important, during incident response and threat analysis.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+# Part 6 – Monitoring Network Connections with CurrPorts
+
+## Objective
+
+I want to learn how to monitor TCP and UDP connections using CurrPorts. I also want to understand how security analysts identify processes, open ports and network activity during malware investigations.
+
+# What is CurrPorts?
+
+CurrPorts is a tool that helps monitor network connections. It shows all TCP and UDP connections, open ports and the processes using them. Security professionals use CurrPorts to investigate network activity.
+
+## 1. Launch CurrPorts
+
+### What We Are Doing
+
+I will open CurrPorts. See all active network connections on my system.
+
+### Description
+
+CurrPorts keeps showing TCP and UDP connections and the process responsible for each one.
+
+## 2. Analyze Network Connections
+
+### What We Are Doing
+
+I will review the information for each active connection.
+
+### Observe
+
+* Process Name
+
+* Process ID (PID)
+
+* Protocol
+
+* Local Port
+
+* Remote Port
+
+* Local Address
+
+* Remote Address
+
+* Connection State
+
+* Process Path
+
+### Description
+
+Each connection gives information that helps analysts understand which application is communicating over the network. The Process Path helps verify the executable for the connection.
+
+## 3. Identify Activity
+
+### What We Are Doing
+
+I will review the network connections and identify any unusual behaviour.
+
+### Examples
+
+* Unknown executable names
+
+* remote IP addresses
+
+* Unusual listening ports
+
+* Multiple outbound connections
+
+* Executables running from suspicious directories
+
+### Description
+
+CurrPorts helps security analysts investigate suspicious network communications and decide if they need to do more analysis.
+
+## Screenshot
+
+![Alt text](screenshots/currports-connections.png)
+
+# Key Concepts Learned
+
+* CurrPorts
+
+* TCP Connections
+
+* UDP Connections
+
+* Open Ports
+
+* Process Identification
+
+* Process Path
+
+* Network Monitoring
+
+# conclusion
+
+In this part I learned:
+
+* How to monitor TCP and UDP connections using CurrPorts.
+
+* How to identify the process, for each network connection.
+
+* How Process Path helps verify locations.
+
+* How CurrPorts assists during malware investigations.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
