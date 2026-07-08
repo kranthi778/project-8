@@ -446,4 +446,102 @@ I learned about malware analysis and dynamic malware analysis.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Part 5 – Monitoring Network Connections with TCPView
 
+## Objective
+
+Learn how to monitor TCP and UDP network connections using TCPView. Understand how TCPView helps security professionals identify network activity during malware investigations.
+
+## What is TCPView?
+
+TCPView is a tool from Microsoft Sysinternals. It shows TCP and UDP connections on a Windows system in time.
+
+TCPView helps security professionals see which processes are communicating over the network. They can check connection details. Find suspicious network activity.
+
+## 1. Launch TCPView
+
+### What We Are Doing
+
+TCPView and see all active network connections.
+
+### Description
+
+TCPView keeps updating. Shows real-time network activity for every process.
+
+## 2. Analyze Active Network Connections
+
+### What We Are Doing
+
+Look at the information for each connection.
+
+### Observe
+
+* Process Name
+
+* Process ID (PID)
+
+* Protocol (TCP / UDP)
+
+* Local Address
+
+* Local Port
+
+* Remote Address
+
+* Remote Port
+
+* Connection State
+
+### Description
+
+Each row in TCPView is a network connection. By checking these details analysts can see which application is communicating over the network. They can tell if the communication seems normal or suspicious.
+
+## 3. Investigate Connections
+
+### What We Are Doing
+
+Look for unusual network activity.
+
+### Examples
+
+* Unknown processes talking to systems.
+
+* Unexpected external IP addresses.
+
+* Unusual listening ports.
+
+* Multiple outbound connections from applications.
+
+### Description
+
+Monitoring network connections helps analysts find malware activity. They can detect communications or suspicious processes that need more investigation.
+
+## Screenshot
+
+![Alt text](screenshots/tcpview-connections.png)
+
+## Key Concepts Learned
+
+* TCPView
+
+* TCP Connections
+
+* UDP Connections
+
+* Process Identification
+
+* Network Monitoring
+
+* Suspicious Network Activity
+
+## conclusion
+
+In this part I learned:
+
+* How to monitor TCP and UDP connections using TCPView.
+
+* How to identify the process associated with a network connection.
+
+* How TCPView helps in malware investigations.
+
+* Why monitoring network connections is important, during incident response and threat analysis.
