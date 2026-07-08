@@ -656,3 +656,129 @@ In this part I learned:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+# Part 7 – Monitoring System Processes with Process Explorer
+
+## Objective
+
+I want to learn how Process Explorer works and how it helps security professionals look at processes that might be suspicious. 
+This is important when we are trying to figure out if there is malware on a computer and how to fix the problem.
+
+---
+
+# What is Process Explorer?
+
+Process Explorer is a tool from Microsoft Sysinternals that helps us see what is going on with the processes on our computer.
+
+It shows us a lot of details about each process like what other processes it is related to what parts of the program're being used how much of the computers brain it is using and how much memory it needs.
+
+Security professionals use Process Explorer to look at processes that might be suspicious to see how malware is behaving and to fix problems with Windows.
+
+---
+
+## 1. Launch Process Explorer
+
+### What We Are Doing
+
+Now I will open Process Explorer. Look at all the processes that are running on my computer.
+
+### Description
+
+Process Explorer shows me every process that is running along with information about the computer.
+
+This makes it easier to look at what each processs doing compared to using the regular Windows Task Manager.
+
+---
+
+## 2. Examine Process Properties
+
+### What We Are Doing
+
+I will look at the details of one of the processes that is running.
+
+### Observe
+
+- The name of the Process Explorer process
+
+- The ID number of the Process Explorer process
+
+- The parent process of the Process Explorer process
+
+- How much of the computers brain the Process Explorer process is using
+
+- How memory the Process Explorer process needs
+
+- The company that made the Process Explorer process
+
+- Where the Process Explorer process is located
+
+- The threads of the Process Explorer process
+
+- The connections to the internet that the Process Explorer process is using
+
+### Description
+
+Looking at the properties of a process helps me understand what it is doing and if it might be a problem.
+
+This information tells me if the process is legitimate or if it might be suspicious.
+
+---
+
+## 3. Investigate Suspicious Processes
+
+### What We Are Doing
+
+I will look at all the processes that are running and try to find any that seem strange.
+
+### Examples
+
+- Process Explorer processes with names that I do not recognize
+
+- Process Explorer processes that are not verified
+
+- Process Explorer processes that are using a lot of the computers brain or memory
+
+- Process Explorer processes that have relationships with other processes
+
+- Process Explorer processes that are connected to the internet in a suspicious way
+
+- Process Explorer processes that are running from unusual places
+
+### Description
+
+Process Explorer helps me look at each process and the resources it is using which makes it easier to figure out if there is a malware problem.
+
+---
+
+## Screenshot
+
+![Alt text](screenshots/process-explorer.png)
+
+---
+
+# Key Concepts Learned
+
+- Using Process Explorer
+
+- Looking at running Process Explorer processes
+
+- Understanding parent-child Process Explorer processes
+
+- Looking at properties of Process Explorer processes
+
+- Monitoring the computers brain with Process Explorer
+
+- Monitoring memory with Process Explorer
+
+- Using Process Explorer to investigate malware
+
+---
+
+# conclusion
+
+In this part I learned how to use Process Explorer to look at running Process Explorer processes.
+
+I also learned how to look at the details of each Process Explorer process and how Process Explorer helps us investigate malware problems.
+
+I understand now why looking at processes is important when we are trying to fix a problem with a computer.
+
+I learned that Process Explorer is an useful tool, for security professionals.
